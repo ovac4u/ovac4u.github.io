@@ -1349,7 +1349,6 @@
                                         <p itemprop="email">iamovac@gmail.com</p>
                                       </div>
                                       <div class="col-md-4"> <i class="fa fa-phone fa-2x"></i>
-                                        <p itemprop="telephone">+233553577261</p>
                                         <p itemprop="telephone">+234813450395</p>
                                       </div>
                                     </div>
