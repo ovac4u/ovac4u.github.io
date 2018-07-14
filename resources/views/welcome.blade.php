@@ -839,7 +839,7 @@
                                                   <div class="custom-skillbar"></div>
                                               </div>
                                               <!-- skill 3-->
-                                              <div class="custom-skillbar-title"><span>Stategic Managemet</span></div>
+                                              <div class="custom-skillbar-title"><span>Strategic Managemet</span></div>
                                               <div class="skill-bar-percent">70%</div>
                                               <div class="skillbar-bg" data-percent="70%">
                                                   <div class="custom-skillbar"></div>
