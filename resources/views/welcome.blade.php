@@ -1302,7 +1302,7 @@
                                             <img ng-src="@{{ post.feature_image }}" class="respimg" alt="">
                                         </div>
                                         <div class="post-item fl-wrap">
-                                            <h4><a href="/blogs/@{{ post.url }}">@{{ post.title }}</a></h4>
+                                            <h4><a href="/blogs@{{ post.url }}">@{{ post.title }}</a></h4>
                                             <ul class="post-meta">
                                                 <li>@{{ post.date | date }}</li>
                                                 {{-- <li><i class="fa fa-heart-o"></i> 151</li> --}}
@@ -1494,7 +1494,7 @@
                 $http.get(ghost.url.api('posts', {
                   limit: 3,
                   format: 'string',
-                  fields: 'feature_image,title,date'
+                  fields: 'feature_image,title,date,url'
                 })).then(function (response){
                   vm.data = response.data;
                 });
