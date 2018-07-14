@@ -1101,45 +1101,6 @@
                         </section>
                         <!-- section end -->
 
-                        <!-- Open Source secton
-                        <section class="small-pad scroll-con-sec" id="oss" data-scrollax-parent="true">
-                          <div class="container">
-                              <div class="section-title">
-                                  <h2>Open Source</h2>
-                                  <p>I love to contribute to open source. Actually, I look up to TJ Holowaychuk. He inspires me.</p>
-                                  <span class="bold-separator"></span>
-                              </div>
-
-                              <div class="text-center">
-                                  <div class="row">
-                                    <div class="col-md-8 col-md-offset-2">
-                                      <div id="testimonial" class="owl-carousel owl-theme">
-                                        <div class="item"> <img class="img-circle" src="//res.cloudinary.com/ovac/image/upload/w_300,h_300,c_fill/v1504967781/ovac-hubtel-payment_clbtzj.png" alt=""/>
-                                          <p>OVAC Hubtel Payment is a PHP client for consuming the Hubtel Mobile Money API. Mobile Money has been estimated to process over 50% of financial transactions in Ghana, and the Hubtel team has done a great job by making mobile money accessible online. OVAC Hubtel Payment makes the process of integrating mobile money with your PHP application a breeze with a carefully crafted "Write as it sounds" syntax that consumes the Hubtel server's API.
-                                            <br>
-                                          <a href="./hubtel-payment" class="btn btn-link"><strong>Read More</strong></a></p>
-                                        </div>
-                                        <div class="item"> <img class="img-circle" src="//res.cloudinary.com/ovac/image/upload/w_300,h_300,c_fill/v1504967765/ovac-couscous-template_bw6smo.png" alt=""/>
-                                          <p>OVAC Couscous Template is a template for a couscous generated websites from Markdown documentation or whatever the Markdown use case may be. Couscous is a package built by the couscous team for generating a beautiful website from markdown. I use this extensively and hope you'd love it.
-                                            <br>
-                                          <a href="./ovac-couscous-template" class="btn btn-link"><strong>Read More</strong></a></p>
-                                        </div>
-                                        <div class="item"> <img class="img-circle" src="//res.cloudinary.com/ovac/image/upload/w_300,h_300,c_fill/v1506656498/Screen_Shot_2017-09-28_at_11.26.02_PM_mc2oov.png" alt=""/>
-                                          <p>Laravel Hubtel Payment takes away most of the overhead required to setup receiving and sending mobile money in Ghana from a Laravel application and makes sending and receiving Mobile Money from a laravel application as easy as taking fresh air. that's easy right? I hope so. .
-                                            <br>
-                                          <a href="./laravel-hubtel-payment" class="btn btn-link"><strong>Read More</strong></a></p>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                <hr>
-                              </div>
-                            </div>
-                            <div class="parallax-title right-pos" data-scrollax="properties: { translateY: '-350px' }">Open Source Contributions</div>
-
-                        </section>
-                        section end  -->
-                    <!-- section  -->
                     <section  id="sec-clients" data-scrollax-parent="true" class="scroll-con-sec">
                       <div class="container">
                               <!-- section-title  -->
@@ -1319,6 +1280,55 @@
                         </section>
                         <!-- section end  -->
 
+
+
+                        <!-- Open Source secton -->
+                        <section class="small-pad scroll-con-sec" id="slides" data-scrollax-parent="true">
+                          <div class="container">
+                              <div class="section-title">
+                                  <h2>Blog Posts</h2>
+                                  <p>Latest blog posts.</p>
+                                  <span class="bold-separator"></span>
+                              </div>
+
+                              <div class="text-center" ng-app="ovac4u.com">
+                                  <div class="row" ng-controller="BlogController as vm">
+
+                                    <div class="col-md-4" ng-repeat="post in vm.data.posts">
+
+
+                                      <article class="post">
+                                        <div class="post-media">
+                                            <img ng-src="@{{ post.feature_image }}" class="respimg" alt="">
+                                        </div>
+                                        <div class="post-item fl-wrap">
+                                            <h4><a href="/blogs/@{{ post.url }}">@{{ post.title }}</a></h4>
+                                            <ul class="post-meta">
+                                                <li>@{{ post.date | date }}</li>
+                                                {{-- <li><i class="fa fa-heart-o"></i> 151</li> --}}
+                                                <li>
+                                                    <h5>Posted by <a href="#">Victor Ariama</a></h5>
+                                                </li>
+                                            </ul>
+                                            <p>@{{ post.string }}</p>
+                                            <a href="/blogs/@{{ post.url }}" class="btn btn-block hide-icon"><i class="fa fa-eye"></i><span>Continue reading</span></a>
+                                            {{-- <ul class="post-tags">
+                                                <li><a href="#">Design</a></li>
+                                                <li><a href="#">Video</a></li>
+                                                <li><a href="#">Photo</a></li>
+                                            </ul> --}}
+                                            <div class="artcicle-icon"><i class="fa fa-picture-o"></i></div>
+                                        </div>
+                                      </article>
+                                    </div>
+                                  </div>
+                                <hr>
+                              </div>
+                            </div>
+                          <div class="parallax-title right-pos" data-scrollax="properties: { translateY: '-350px' }">Blog Posts</div>
+                        </section>
+                    <!--section end  -->
+
                     <!-- section  end-->
                     <section class="small-pad scroll-con-sec" id="sec-contact" data-scrollax-parent="true">
                             <!-- container -->
@@ -1368,38 +1378,6 @@
                                           <li><a href="https://www.medium.com/@ovac4u"> <i class="pop share-icon btn-social fa fa-medium"></i> </a> </li>
                                         </ul>
                                       </div>
-                                    </div>
-
-                                    <div class="col-md-12">
-                                        <div class="align-text">
-                                            <!-- p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet vitae eget dolor. Proin eu ultrices libero. Curabitur vulputate vestibulum elementum. Suspendisse id neque a nibh mollis blandit. Quisque varius eros ac purus dignissim.</p -->
-                                        </div>
-                                        <!-- contact info
-                                        <div class="contact-info">
-                                            <ul>
-                                                <li><a href="#"> <i class="fa fa-phone"></i> +7(111)123456789</a></li>
-                                                <li><a href="#"><i class="fa fa-motorcycle"></i> 27th Brooklyn New York, NY 10065</a></li>
-                                                <li><a href="#"><i class="fa fa-envelope-o"></i> yourmail@domain.com</a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="section-separator   fl-wrap"></div>
-                                        <h4 class="bold-title">Office Location</h4>
-                                        <div class="map-box box-map">
-                                            <div  id="map-canvas"></div>
-                                        </div>
-                                        <div class="section-separator   fl-wrap"></div>
-                                        <h4 class="bold-title">Get in Touch</h4>
-
-                                        <div id="contact-form">
-                                            <div id="message"></div>
-                                            <form method="post" action="php/contact.php" name="contactform" id="contactform">
-                                                <input name="name" type="text" id="name"  class="inputForm2" onClick="this.select()" value="Name" >
-                                                <input name="email" type="text" id="email" onClick="this.select()" value="E-mail" >
-                                                <textarea name="comments"  id="comments" onClick="this.select()" >Message</textarea>
-                                                <input type="submit" class="send_message" id="submit" value="Send Message" />
-                                            </form>
-                                        </div>
-                                        -->
                                     </div>
 
                                 </div>
@@ -1494,6 +1472,33 @@
             });
             feed.run();
           });
+        </script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.2/angular.min.js"></script>
+        <script type="text/javascript" src="https://www.ovac4u.com/blogs/public/ghost-sdk.min.js?v=701f1fcbc3"></script>
+
+        <script>
+          ghost.init({
+            clientId: "ghost-frontend",
+            clientSecret: "29f95c51d526"
+          });
+
+
+          angular.module('ovac4u.com', [])
+
+            .controller('BlogController', function($http, $scope){
+
+                var vm = this;
+
+                $http.get(ghost.url.api('posts', {
+                  limit: 3,
+                  format: 'string',
+                  fields: 'feature_image,title,date'
+                })).then(function (response){
+                  vm.data = response.data;
+                });
+
+            });
         </script>
         <!-- script src="//www.pocket-locator.com/api/?k=872f7da0c11af571170712d87880fc38&f=js&id=location" async defer></script -->
         <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-599a2b3ed56dd5f2"></script>
