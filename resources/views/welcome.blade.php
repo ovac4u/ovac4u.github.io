@@ -107,6 +107,32 @@
             }
           }
       </style>
+
+      <!-- Global site tag (gtag.js) - Google AdWords: 837377640 -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=AW-837377640"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'AW-837377640');
+      </script>
+      <!-- Event snippet for Contact Me conversion page
+      In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+      <script>
+      function gtag_report_conversion(url) {
+        var callback = function () {
+          if (typeof(url) != 'undefined') {
+            window.location = url;
+          }
+        };
+        gtag('event', 'conversion', {
+            'send_to': 'AW-837377640/U9nhCPj6roYBEOi8pY8D',
+            'event_callback': callback
+        });
+        return false;
+      }
+      </script>
     </head>
     <body>
         <!--================= loader ================-->
@@ -1366,7 +1392,7 @@
 
                                     <div class="col-md-12">
 
-                                      <div class="typeform-widget" data-url="https://ovac4u.typeform.com/to/vEAuJS" data-transparency="50" data-hide-headers=true data-hide-footer=true style="width: 100%; height: 390px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=vEAuJS&utm_source=typeform.com-10330453-Basic&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div>
+                                      <div id="typeform-contact-widget" style="width: 100%; height: 390px;"></div>
 
                                       <div class="social">
                                         <ul>
@@ -1437,6 +1463,8 @@
         <script type="text/javascript" src="js/ovac4u/vegas.js"></script>
         <script type="text/javascript" src="js/ovac4u/instafeed.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/pagemap/dist/pagemap.min.js"></script>
+        <script src="https://embed.typeform.com/embed.js"></script>
+
         <script>
             pagemap(document.querySelector('#map'));
         </script>
@@ -1471,7 +1499,17 @@
               }
 
             });
+
             feed.run();
+
+            var el = document.getElementById('typeform-contact-widget');
+
+            typeformEmbed.makeWidget(el, "https://ovac4u.typeform.com/to/vEAuJS", {
+                opacity: 50,
+                hideFooter: true,
+                hideHeaders: true,
+                onSubmit: gtag_report_conversion,
+            });
           });
         </script>
 
