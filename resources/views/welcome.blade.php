@@ -126,7 +126,6 @@
             window.location = url;
           }
         };
-
         gtag('event', 'conversion', {
             'send_to': 'AW-837377640/U9nhCPj6roYBEOi8pY8D',
             'event_callback': callback
