@@ -1541,7 +1541,34 @@
         </script>
         <!-- script src="//www.pocket-locator.com/api/?k=872f7da0c11af571170712d87880fc38&f=js&id=location" async defer></script -->
         <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-599a2b3ed56dd5f2"></script>
-        <script src="https://embed.small.chat/T3XR3B24QGBFPC3WHL.js" async></script>
+
+        <script type="text/javascript">
+            (function () {
+                var head = document.getElementsByTagName("head").item(0);
+                var script = document.createElement("script");
+
+                var src = (document.location.protocol == 'https:'
+                    ? 'https://www.formilla.com/scripts/feedback.js'
+                    : 'http://www.formilla.com/scripts/feedback.js');
+
+                script.setAttribute("type", "text/javascript");
+                script.setAttribute("src", src); script.setAttribute("async", true);
+
+                var complete = false;
+
+                script.onload = script.onreadystatechange = function () {
+                    if (!complete && (!this.readyState
+                            || this.readyState == 'loaded'
+                            || this.readyState == 'complete')) {
+                        complete = true;
+                        Formilla.guid = 'cse50dc0-1ed7-4ea1-85f3-bdf8f2425836';
+                        Formilla.loadWidgets();
+                    }
+                };
+
+                head.appendChild(script);
+            })();
+        </script>
 
         <!-- Google Tag Manager -->
         <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
