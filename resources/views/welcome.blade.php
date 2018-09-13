@@ -9,6 +9,7 @@
           <meta name="description" content="Ariama Victor (A. K. A. ovac4u) is a Ghana based Nigeran Developer Advocate and a programmer behind an app you use directly or indirectly. ovac4u speak's at events, contribute to OSS and hope's to inspire you.">
           <meta name="author" content="Ariama Victor (ovac4u)">
           <meta name="google-site-verification" content="oBh-wOiDMDBX8fmat2QTN-NvRa4FJPI3qxTkgD2kd84" />
+          <meta name="google-site-verification" content="oBh-wOiDMDBX8fmat2QTN-NvRa4FJPI3qxTkgD2kd84" />
 
           <meta itemprop="url" content="https://www.ovac4u.com/">
           <!--span itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
@@ -1033,6 +1034,21 @@
                                     </div>
                                     <!-- gallery-item end-->
                                     <!-- gallery-item-->
+                                    <div class="gallery-item oss uides branding web">
+                                        <div class="grid-item-holder">
+                                            <div class="box-item vis-det folio-img fl-wrap">
+                                                <img  src="//res.cloudinary.com/ovac/image/upload/w_300,h_300,c_fill/v1536845571/Screen_Shot_2018-09-13_at_2.31.51_PM_uusuy7.png"    alt="">
+                                                <a data-src="//res.cloudinary.com/ovac/image/upload/v1536845571/Screen_Shot_2018-09-13_at_2.31.51_PM_uusuy7.png" class="image-popup single-popup"><i class="fa fa-search"></i></a>
+                                            </div>
+                                            <div class="grid-det fl-wrap">
+                                                <h3><a href="https://www.nigeriamostbeautifulghana.com">Nigeria Most Beautiful Ghana (NMBG)</a></h3>
+                                                <span>Web App</span>
+                                                <i class="fa fa-mobile"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- gallery-item end-->
+                                    <!-- gallery-item-->
                                     <div class="gallery-item web branding uides ">
                                         <div class="grid-item-holder">
                                             <div class="box-item vis-det folio-img fl-wrap">
@@ -1255,6 +1271,7 @@
                                   <ul>
                                       <li><a href="#" target="_blank"><span><img src="//res.cloudinary.com/ovac/image/upload/w_100/v1517838575/AzizbambaPNGwithText_syuc3x.png" alt=""></span></a></li>
                                       <li><a href="#" target="_blank"><span><img src="//res.cloudinary.com/ovac/image/upload/w_100/v1517838706/logo_qdqiy6.png" alt=""></span></a></li>
+                                      <li><a href="#" target="_blank"><span><img src="//res.cloudinary.com/cuteblacky/image/upload/w_100/v1534858228/MNG_Facebook_-_Shared_Link_iygvem.png" alt=""></span></a></li>
                                       <li><a href="#" target="_blank"><span><img src="//res.cloudinary.com/ovac/image/upload/w_100/v1517838771/RESCOPE_LOGO_wuqabo.png" alt=""></span></a></li>
                                       <li><a href="#" target="_blank"><span><img src="//res.cloudinary.com/ovac/image/upload/w_100/v1515160838/logo_leb35v.png" alt=""></span></a></li>
                                       <li><a href="#" target="_blank"><span><img src="//buttercash.com/images/logo.black.text.right.svg" alt=""></span></a></li>
