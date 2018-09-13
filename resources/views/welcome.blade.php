@@ -1269,12 +1269,12 @@
                               <!-- clients-->
                               <div class="clients-list fl-wrap">
                                   <ul>
-                                      <li><a href="#" target="_blank"><span><img src="//res.cloudinary.com/ovac/image/upload/w_100/v1517838575/AzizbambaPNGwithText_syuc3x.png" alt=""></span></a></li>
-                                      <li><a href="#" target="_blank"><span><img src="//res.cloudinary.com/ovac/image/upload/w_100/v1517838706/logo_qdqiy6.png" alt=""></span></a></li>
-                                      <li><a href="#" target="_blank"><span><img src="//res.cloudinary.com/cuteblacky/image/upload/w_100/v1534858228/MNG_Facebook_-_Shared_Link_iygvem.png" alt=""></span></a></li>
-                                      <li><a href="#" target="_blank"><span><img src="//res.cloudinary.com/ovac/image/upload/w_100/v1517838771/RESCOPE_LOGO_wuqabo.png" alt=""></span></a></li>
-                                      <li><a href="#" target="_blank"><span><img src="//res.cloudinary.com/ovac/image/upload/w_100/v1515160838/logo_leb35v.png" alt=""></span></a></li>
-                                      <li><a href="#" target="_blank"><span><img src="//buttercash.com/images/logo.black.text.right.svg" alt=""></span></a></li>
+                                      <li><a href="https://www.azizbamba.com" target="_blank"><span><img src="//res.cloudinary.com/ovac/image/upload/w_100/v1517838575/AzizbambaPNGwithText_syuc3x.png" alt=""></span></a></li>
+                                      <li><a href="https://developers.hubtel.com/documentations/resources" target="_blank"><span><img src="//res.cloudinary.com/ovac/image/upload/w_100/v1517838706/logo_qdqiy6.png" alt=""></span></a></li>
+                                      <li><a href="https://www.nigeriamostbeautifulghana.com" target="_blank"><span><img src="//res.cloudinary.com/cuteblacky/image/upload/w_100/v1534858228/MNG_Facebook_-_Shared_Link_iygvem.png" alt=""></span></a></li>
+                                      <li><a href="https://www.rescopenet.com" target="_blank"><span><img src="//res.cloudinary.com/ovac/image/upload/w_100/v1517838771/RESCOPE_LOGO_wuqabo.png" alt=""></span></a></li>
+                                      <li><a href="https://www.zinojobs.com" target="_blank"><span><img src="//res.cloudinary.com/ovac/image/upload/w_100/v1515160838/logo_leb35v.png" alt=""></span></a></li>
+                                      <li><a href="https://www.buttercash.com" target="_blank"><span><img src="//buttercash.com/images/logo.black.text.right.svg" alt=""></span></a></li>
                                   </ul>
                               </div>
                               <!-- clients end -->
