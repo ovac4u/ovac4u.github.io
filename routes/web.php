@@ -29,4 +29,4 @@ Route::group(['prefix' => 'login-with', 'namespace' => 'Auth'], function () {
  * Hand routing over to the react app if no routes has been matched.
  */
 Route::view('password/reset', 'react-app')->name('password.reset');
-Route::view('{slug}', 'react-app')->where('slug', '(?!api|nova-api)([A-z\d-\/_.]+)?');
+// Route::view('{slug}', 'react-app')->where('slug', '(?!api|nova-api)([A-z\d-\/_.]+)?');
