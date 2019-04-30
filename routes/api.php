@@ -37,6 +37,7 @@ Route::group(['prefix' => 'v1'], function () {
 
         Route::put('phones', 'UserPhoneController@verify')->name('phones.verify')->middleware('throttle:10,1');
 
+        Route::apiResource('items', 'ItemController');
         /**
          * Routes for handling the user's account settings
          */
