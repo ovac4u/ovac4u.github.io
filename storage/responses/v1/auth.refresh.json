@@ -1,0 +1,10 @@
+{
+    "status": 200,
+    "success": true,
+    "data": {
+        "user": null,
+        "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9wcC10YWJsZS5ydW5cL2FwaVwvdjVcL2F1dGhcL3JlZnJlc2giLCJpYXQiOjE1NDQ2NDEyODcsImV4cCI6MTU0NDY1NTM3NywibmJmIjoxNTQ0NjUxNzc3LCJqdGkiOiI2ZVpab3R2ZERGMUVJTFNCIiwic3ViIjoyLCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.OSOi29__XQtW6ZYLDTXN3TsBElgkY8fuKE313cl_pmA",
+        "token_type": "bearer",
+        "expires_in": 3600
+    }
+}

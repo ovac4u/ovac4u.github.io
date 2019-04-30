@@ -1,0 +1,31 @@
+{
+  "status": 200,
+  "success": true,
+  "data": {
+    "id": 3,
+    "user_id": 1,
+    "phone": "+233553577262",
+    "country": "gh",
+    "verified_at": "2019-01-21 00:00:00",
+    "created_at": "2019-01-21 15:39:22",
+    "updated_at": "2019-01-21 15:39:22",
+    "user": {
+      "id": 1,
+      "last_name": "Mahama",
+      "first_name": "John",
+      "other_names": "Ibhrahim",
+      "email": "victorariama@google.com",
+      "email_verified_at": "2019-01-09 19:46:50",
+      "username": "ovac4u",
+      "country": "GH",
+      "phone": "+233553577262",
+      "phone_verified_at": null,
+      "account_type": "normal",
+      "login_status": "enabled",
+      "verified_at": null,
+      "created_at": "2019-01-17 19:39:04",
+      "updated_at": "2019-01-25 13:15:28"
+    }
+  },
+  "message": "+233553577262 has been set as your default phone number."
+}

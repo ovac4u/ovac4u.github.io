@@ -1,0 +1,30 @@
+{
+    "status": 200,
+    "success": true,
+    "data": {
+        "user": {
+            "id": 1,
+            "last_name": "Ariama",
+            "first_name": "victor",
+            "other_names": null,
+            "email": "user@gmail.com",
+            "email_verified_at": null,
+            "username": null,
+            "email_verification_hash": null,
+            "phone": "+233553577264",
+            "phone_verified_at": null,
+            "account_type": "normal",
+            "login_status": "unverified_email",
+            "country": "gh",
+            "notes": null,
+            "last_seen_at": null,
+            "became_premium_at": null,
+            "api_token": null,
+            "created_at": "2018-12-12 21:38:28",
+            "updated_at": "2018-12-12 21:38:28"
+        },
+        "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9wcC10YWJsZS5ydW5cL2FwaVwvdjVcL2F1dGhcL2xvZ2luIiwiaWF0IjoxNTQ0NjUwNzMzLCJleHAiOjE1NDQ2NTQzMzMsIm5iZiI6MTU0NDY1MDczMywianRpIjoib21MMjhDOWJRcGpzaHNmVSIsInN1YiI6MSwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.qrg_9n8iQcFyeWFCHIvY65XvjvKRbEKQIXVguA5E_-4",
+        "token_type": "bearer",
+        "expires_in": 3600
+    }
+}

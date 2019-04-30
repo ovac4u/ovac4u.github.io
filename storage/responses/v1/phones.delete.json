@@ -1,0 +1,14 @@
+{
+	"status": 200,
+	"success": true,
+	"data": {
+		"id": 2,
+		"user_id": 1,
+		"phone": "+233553577261",
+		"country": "gh",
+		"verified_at": "2019-01-21 14:47:12",
+		"created_at": "2019-01-21 14:47:12",
+		"updated_at": "2019-01-21 14:47:12"
+	},
+	"message": "Phone deleted."
+}

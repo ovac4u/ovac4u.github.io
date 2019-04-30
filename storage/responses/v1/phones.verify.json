@@ -1,0 +1,14 @@
+{
+	"status": 200,
+	"success": true,
+	"data": {
+		"phone": "+233553577261",
+		"country": "gh",
+		"verified_at": "2019-01-21 15:39:22.609185",
+		"user_id": 1,
+		"updated_at": "2019-01-21 15:39:22",
+		"created_at": "2019-01-21 15:39:22",
+		"id": 3
+	},
+	"message": "Verification complete."
+}
