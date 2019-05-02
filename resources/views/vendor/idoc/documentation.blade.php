@@ -19,10 +19,12 @@
     </style>
     <link rel="icon" type="image/png" href="/favicon.ico">
     <link rel="apple-touch-icon-precomposed" href="/favicon.ico">
-    <script src="https://buttons.github.io/buttons.js"></script>
+
+    @include('partials.head')
   </head>
   <body>
     <div id="redoc_container"></div>
+
     <script src="https://redocpro-cdn.redoc.ly/v1.0.0-beta.7/redocpro-standalone.min.js"></script>
     <script>
       RedocPro.init(
@@ -47,5 +49,7 @@
         return constantMock.apply(this, arguments)
       }
     </script>
+    @include('partials.footer')
+
   </body>
 </html>
